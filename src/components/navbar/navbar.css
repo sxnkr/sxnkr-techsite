@@ -1,0 +1,77 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.navbar {
+  height: 5vh;
+}
+
+nav {
+  font-family: "JetBrains Mono", monospace;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.5ms;
+  padding: 40px 100px;
+  z-index: 100000;
+}
+
+.hover-eff:hover {
+  color: #fff;
+  text-shadow: 0 0 7px #96b4c8, 0 0 10px #96b4c8, 0 0 21px #96b4c8,
+    0 0 32px #96b4c8, 0 0 42px #131313, 0 0 82px #131313, 0 0 92px #131313,
+    0 0 102px #131313, 0 0 156px #131313;
+  -moz-transition: all 0.4s ease-in;
+  -o-transition: all 0.4s ease-in;
+  -webkit-transition: all 0.4s ease-in;
+  transition: all 0.4s ease-in;
+}
+
+header .sticky {
+  padding: 40px 100px;
+  background: #131313;
+}
+
+header .logo {
+  position: relative;
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: 0.6ms;
+}
+
+header ul {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header ul li {
+  position: relative;
+  list-style: none;
+}
+
+header ul li a {
+  position: relative;
+  margin: 0 15px;
+  text-decoration: none;
+  color: #fff;
+  letter-spacing: 2px;
+  font-weight: 500px;
+  transition: 0.6s;
+}
+
+header.sticky .logo,
+header.sticky ul li a {
+  color: #fff;
+}

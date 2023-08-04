@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&family=Anuphan:wght@100;200;300;400;500;600;700&display=swap");
+
+.intro {
+  color: #fff;
+  display: grid;
+  min-height: 100vh;
+  margin: 200px;
+  font-family: "Poppins", sans-serif;
+}
+
+.lefty {
+  color: #adadad;
+  font-family: "Poppins", sans-serif;
+  text-align: left;
+  text-decoration: none;
+  font-size: small;
+  font-weight: 600;
+}
+
+.overv {
+  color: #fff;
+  font-family: "Anuphan", sans-serif;
+  text-align: left;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 6vh;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+
+.overviewabout {
+  justify-content: center;
+}
+
+@media (max-width: 600px) {
+  .overv {
+    font-size: 4vh;
+  }
+  .overviewabout {
+    justify-content: center;
+  }
+}
